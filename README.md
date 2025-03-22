@@ -49,3 +49,9 @@ This library works by:
 ## Security Warning
 
 This library bypasses certificate validation, which is a core security feature of SSL/TLS. Only use this for development, debugging, or testing purposes in controlled environments.
+
+## Related Projects
+
+- [screwmysecurity](https://github.com/shenki/screwmysecurity) - Patches `X509_verify_cert`
+- [openssl-hook](https://github.com/sebcat/openssl-hook) - Log data to/from SSL_write/SSL_read to disk using LD_PRELOAD hooks
+- [tlsinterposer](https://github.com/Netfuture/tlsinterposer) - OpenSSL library interposer to make existing binary software use more secure TLS protocol variants
